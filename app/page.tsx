@@ -13,6 +13,8 @@ import Swipper from '@/components/Swipper';
 import Services from '@/components/Services';
 import Transparency from '@/components/Transparencia';
 import CallToAction from '@/components/CallToAction';
+import PaymentMethods from '@/components/PaymentMethods';
+import CardsPrices from '@/components/CardsPrices';
 
 
 export default function Home() {
@@ -23,17 +25,16 @@ export default function Home() {
         <Hero />
         <Services />
         <Transparency />
-        <Services />
+        <PaymentMethods />
+        <CardsPrices />
         <CallToAction />
         {/*
         <Cards />
-
         <Body />
         <Swipper/>
-        <Swipper2/>*/}
-        
+        <Swipper2/>
         <Section />
-
+        */}
         <Footer />
       </main>
     </NextUIProvider>

@@ -25,9 +25,11 @@ const Hero = () => {
         <div className='flex flex-col max-w-2xl ml-20 gap-8'>
           <div className='flex flex-row gap-4'>
         <h1 className="text-4xl font-bold">Gestión Profesional de Tus Redes Sociales</h1>
+        <span className='hidden'>
         <FaTwitter className="text-7xl text-blue-500"/>
 <FaInstagram className="text-7xl text-orange-400"/>
 <SiOnlyfans className="text-7xl text-blue-300"/>
+</span>
         </div>
         <h2 className='text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-500 gradient-animated'>Maximiza tus ganancias, minimiza tu esfuerzo.</h2>
 <p className="mt-2">Deja en nuestras manos la gestión de tus redes y enfócate en lo que mejor sabes hacer: <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500 gradient-animated">crear contenido</span>.</p>
