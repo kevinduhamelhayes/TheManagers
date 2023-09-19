@@ -5,7 +5,7 @@ import { SiOnlyfans } from 'react-icons/si';
 
 const Hero = () => {
   return (
-    <div className="relative h-[500px] w-full overflow-hidden">
+    <div className="relative h-[600px] md:h-[500px] w-full overflow-hidden">
       {/* Video de fondo */}
       <video
         autoPlay
@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="absolute z-20 w-full h-full bg-black opacity-50"></div>
 
       {/* Contenido del Hero */}
-      <div className="relative z-30 top-[30px] p-10 text-white">
+      <div className="relative z-30 md:top-[30px] p-10 text-white">
         <div className='flex flex-col max-w-2xl ml-20 gap-8'>
           <div className='flex flex-row gap-4'>
         <h1 className="text-4xl font-bold">Gestión Profesional de Tus Redes Sociales</h1>

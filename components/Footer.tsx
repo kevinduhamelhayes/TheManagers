@@ -23,7 +23,7 @@ const Footer1 = () => {
         <div>
           <h2 className="flex items-center space-x-2 text-2xl">
             <span>The Managers</span>
-            <IoHammer className="text-cyan" />
+            
           </h2>
           <div className="mt-8 flex flex-col gap-8 justify-around">
             <span className="flex items-center space-x-4">
