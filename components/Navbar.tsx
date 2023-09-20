@@ -7,7 +7,7 @@ const Component = () => {
 
   return (
     <Navbar className="bg-black min-h-[110px] text-white shadow-md" position="static">
-      <NavbarBrand>
+      <NavbarBrand className="hidden md:flex">
         <AcmeLogo />
         <p className="font-bold text-2xl text-inherit ml-4">TheManagers.com</p>
       </NavbarBrand>
